@@ -18,4 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('apps.TimeDisplay_app.urls')) ]
+    url(r'^time_display', include('apps.TimeDisplay_app.urls')) ,
+    url(r'^', include('apps.TimeDisplay_app.urls')) ,
+]

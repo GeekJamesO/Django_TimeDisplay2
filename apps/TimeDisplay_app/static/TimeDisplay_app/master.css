@@ -1,1 +1,7 @@
-body { background-color:pink }
+.BoxAroundTime {
+    border:  2px solid black;
+    width:   400px 400px;
+    display: inline-block;
+    padding: 30px;
+    margin:  5% 30%;
+}
